@@ -1,0 +1,48 @@
+Atelier : Compromis (laboratoires de l'équipe bleue)
+
+Bonjour Analyste !
+
+Dans cet atelier de cybersécurité, vous participerez à un exercice pratique simulant une enquête sur un incident réel où un adversaire/attaquant compromet le réseau d'une entreprise.
+
+Pendant toute la durée de l'atelier, veuillez porter une attention particulière aux horodatages, à la syntaxe des commandes et à toute activité anormale ou suspecte.
+
+Rappelez-vous que cet atelier est conçu pour améliorer vos compétences en matière de réponse aux incidents et d'analyse. Il vous fournira une expérience pratique dans l'investigation d'un hôte Linux compromis et vous aidera à comprendre les tactiques employées par les adversaires. Bonne chance et profitez du défi !
+
+Vous pouvez trouver tout le contenu de l'atelier sur le bureau.
+
+Partie I de Compromis- Adversaire/Attaquant sur un hôte Linux !
+
+Bienvenue dans la "Partie I de Compromis/Breached - Adversaire sur un hôte Linux !".
+Dans cette partie, vous endosserez le rôle d'un analyste en cybersécurité et enquêterez sur un hôte Linux compromis. Votre mission est de découvrir les détails d'une faille de sécurité et de comprendre les techniques utilisées par un adversaire pour compromettre le système.
+L'atelier se compose de quatre défis, chacun vous présentant un élément de preuve différent lié à la faille. Votre tâche consiste à analyser soigneusement les fichiers journaux et les instantanés fournis pour reconstituer les événements qui se sont produits pendant l'attaque.
+
+Défi 1 : Journaux d'authentification 1
+Dans ce défi, vous analyserez les journaux d'authentification de l'hôte Linux compromis. Ces journaux contiennent des informations sur les tentatives de connexion réussies et échouées, fournissant des indications précieuses sur l'accès initial de l'attaquant.
+
+Défi 2 : Journaux d'authentification 2
+Dans ce défi, vous approfondirez les journaux d'authentification pour identifier les preuves d'une attaque par force brute. La force brute consiste à essayer différents mots de passe jusqu'à ce que le bon soit découvert. Votre objectif est d'identifier les modèles et les techniques employés par l'attaquant pendant la phase de force brute.
+
+Défi 3 : Historique Bash
+Dans ce défi, vous examinerez l'historique bash de l'hôte Linux compromis. L'historique bash contient un enregistrement chronologique des commandes exécutées par l'attaquant. En analysant cet historique, vous pouvez découvrir les commandes spécifiques utilisées par l'attaquant pour obtenir un accès non autorisé et installer son malware sur le système.
+
+Défi 4 : Processus en cours d'exécution
+Dans le dernier défi, vous analyserez un instantané des processus en cours d'exécution sur l'hôte compromis. Cet instantané fournit un aperçu des processus exécutés au moment de la faille. En examinant ces informations, vous pouvez identifier les processus suspects ou malveillants initiés par l'attaquant.
+
+
+
+Partie II de Compromis - L'adversaire passe à Windows !
+
+Dans cette partie, vous poursuivrez votre enquête alors que l'adversaire étend son intrusion à un hôte Windows sur le même réseau. Votre mission est de détecter et d'analyser les activités menées par l'attaquant sur la machine Windows compromise.
+L'atelier comprend trois défis, chacun se concentrant sur un aspect spécifique des actions de l'attaquant :
+
+Défi 1 : Journaux d'authentification
+
+Dans ce défi, vous examinerez les journaux d'authentification Windows pour identifier les preuves de tentatives de force brute. Analysez les journaux d'événements liés à l'authentification pour découvrir toute tentative de connexion suspecte ou échouée qui pourrait indiquer les efforts de l'attaquant pour obtenir un accès non autorisé par le biais de la devinette de mot de passe ou de techniques de force brute.
+
+Défi 2 : Journaux d'historique PowerShell
+
+Dans ce défi, vous enquêterez sur les journaux d'historique PowerShell de l'hôte Windows compromis. PowerShell est un puissant langage de script souvent utilisé par les attaquants. Votre tâche consiste à rechercher dans les journaux d'événements Windows les commandes PowerShell exécutées par l'attaquant. Concentrez-vous particulièrement sur l'identification des commandes PowerShell qui téléchargent et exécutent des logiciels malveillants supplémentaires sur la machine Windows compromise.
+
+Défi 3 : Get-Process
+
+Dans le dernier défi, vous examinerez les résultats de la commande "Get-Process", qui affiche la liste des processus en cours d'exécution sur l'hôte Windows compromis. Étudiez attentivement la sortie de cette commande pour identifier les processus suspects ou malveillants initiés par l'attaquant. Recherchez les processus inhabituels ou anormaux qui pourraient indiquer la présence de logiciels malveillants ou d'activités non autorisées.
